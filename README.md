@@ -37,7 +37,7 @@ pip install celery
 Install Flask using pip
 
 ```
-pip install celery
+pip install Flask
 ```
 
 ### 1.3 Set up Python Application
@@ -143,6 +143,7 @@ if __name__ == '__main__':
     sudo ln -s /etc/nginx/sites-available/nginx.conf /etc/nginx/sites-enabled/
     sudo nginx -t
     sudo systemctl restart nginx
+    sudo systemctl status nginx
     ```
     
 
